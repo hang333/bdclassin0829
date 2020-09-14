@@ -80,11 +80,7 @@ public class ClassinCourseClassController {
     class MyThread extends Thread{
         @Override
         public void run() {
-            try {
-                iBbCourseClassinCourse.deleteClassInCourseStudent();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+            iBbCourseClassinCourse.deleteStudentByPhone();
         }
     }
     /**
@@ -239,8 +235,8 @@ public class ClassinCourseClassController {
      * @author panhaiming
      * @date 20200818
      */
-//    @ResponseBody
-//    @RequestMapping("/getClassScheduleData.do")
+    @ResponseBody
+    @RequestMapping("/getClassScheduleData.do")
     public String getClassScheduleData() throws IOException, MessagingException, InterruptedException {
 //      String datas="{\n" +
 //                "    \"ClassID\": 25672,\n" +
@@ -506,11 +502,11 @@ public class ClassinCourseClassController {
 //        jsonArray.add(jsonObject);
 //        String param7 = "studentJson="+jsonArray.toJSONString();
 //        log.info("para7>>>>>>>>>>>>>>"+param7);
-//        String param_studentName = "studentName=" + userId;
+        String studentName = "studentName=" + userId;
         String classin_addclassstudent_url = systemRegistryMapper.getURLByKey("classin_addcoursestudent_url");
         StringBuilder sBuilder = new StringBuilder();
         sBuilder.append(parma1).append("&").append(param2).append("&").append(param3)
-                .append("&").append(param4).append("&").append(param5).append("&").append(param6);
+                .append("&").append(param4).append("&").append(param5).append("&").append(param6).append("&").append(studentName);
         ObjectMapper objectMapper = new ObjectMapper();
         String addClassStudentResultMapString = HttpClient.doPost(classin_addclassstudent_url, sBuilder.toString());
         log.info("addCourseStudentResultMapString is >>>" + addClassStudentResultMapString);
@@ -534,8 +530,7 @@ public class ClassinCourseClassController {
                 String parma3 = "timeStamp=" + currentCreateClassTime;
                 String param_studentAccount = "studentAccount=" + userPhoneMapper.findByPhone("");
                 User currentUser = SystemUtil.getCurrentUser();
-                String param_studentName = "studentName=" + currentUser.getFamilyName() + currentUser.getMiddleName()
-                        + currentUser.getGivenName();
+                String param_studentName = "studentName=" + currentUser.getUserName();
                 ;
                 StringBuilder strsBuilder = new StringBuilder();
                 strsBuilder.append(parma1).append("&").append(parma2).append("&").append(parma3).append("&").
@@ -933,14 +928,6 @@ public class ClassinCourseClassController {
         String telephone = bbSession.getGlobalKey("telephone");
         ClassinCourseClass classInfo = classinCourseClassMapper.findByClassId(classId);
         String classinUid = "";
-//        if (SystemUtil.isTeacher()){
-//            classinUid = userPhoneMapper.findByPhone(teacherInfo.split(" ")[1]).getClassinUid();
-//            log.info(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>访问者身份------老师");
-//        }else {
-//            classinUid = userPhoneMapper.findByPhone(telephone).getClassinUid();
-//            log.info(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>访问者身份------学生");
-//        }
-        //判断教师是否为本节课老师，代码待补全
         classinUid = userPhoneMapper.findByPhone(telephone).getClassinUid();
         long currentLoignTime = System.currentTimeMillis() / 1000;
         String parma1 = "SID=" + Constants.SID;
@@ -1067,6 +1054,9 @@ public class ClassinCourseClassController {
         String bb_course_id = split[1];
         List<BBUser> assistantTeachers = SystemUtil.getBbAssistantTeachers(bb_course_id, userPhoneMapper);
         List<BBUser> teachers = SystemUtil.getBbTeachers(bb_course_id, userPhoneMapper);
+        String userName = SystemUtil.getCurrentUser().getUserName();
+        String phone = userPhoneMapper.findPhoneByUserId(userName).getPhone();
+        model.addAttribute("currentUserTelephone", phone);
         boolean isTeacher = SystemUtil.isTeacher();
         model.addAttribute("isTeacher", isTeacher);
         model.addAttribute("classList", newClassList);
@@ -1104,6 +1094,9 @@ public class ClassinCourseClassController {
         List<BBUser> assistantTeachers = SystemUtil.getBbAssistantTeachers(bb_course_id, userPhoneMapper);
         List<BBUser> teachers = SystemUtil.getBbTeachers(bb_course_id, userPhoneMapper);
         boolean isTeacher = SystemUtil.isTeacher();
+        String userName = SystemUtil.getCurrentUser().getUserName();
+        String phone = userPhoneMapper.findPhoneByUserId(userName).getPhone();
+        model.addAttribute("currentUserTelephone", phone);
         model.addAttribute("isTeacher", isTeacher);
         model.addAttribute("classList", newClassList);
         model.addAttribute("assistantTeachers", assistantTeachers);

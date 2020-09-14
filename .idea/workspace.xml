@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="992ca7fd-32f7-404b-874f-294548831d3c" name="Default" comment="" />
+    <list default="true" id="992ca7fd-32f7-404b-874f-294548831d3c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bb-classin.war" beforeDir="false" afterPath="$PROJECT_DIR$/bb-classin.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blackboard/classin/constants/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/blackboard/classin/constants/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blackboard/classin/controller/BbCourseClassinCourseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/blackboard/classin/controller/BbCourseClassinCourseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blackboard/classin/controller/ClassinController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/blackboard/classin/controller/ClassinController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blackboard/classin/controller/ClassinCourseClassController$MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/blackboard/classin/controller/ClassinCourseClassController$MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blackboard/classin/controller/ClassinCourseClassController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/blackboard/classin/controller/ClassinCourseClassController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blackboard/classin/controller/ClssinClassVideoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/blackboard/classin/controller/ClssinClassVideoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blackboard/classin/controller/UserPhoneController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/blackboard/classin/controller/UserPhoneController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blackboard/classin/service/IBbCourseClassinCourse.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/blackboard/classin/service/IBbCourseClassinCourse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blackboard/classin/service/impl/BbCourseClassinCourseImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/blackboard/classin/service/impl/BbCourseClassinCourseImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blackboard/classin/service/impl/ClassinCourseClassImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/blackboard/classin/service/impl/ClassinCourseClassImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blackboard/classin/service/impl/TimerTaskImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/blackboard/classin/service/impl/TimerTaskImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blackboard/classin/util/HttpClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/blackboard/classin/util/HttpClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blackboard/classin/util/SystemUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/blackboard/classin/util/SystemUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bin/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/blackboard/classin/constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/blackboard/classin/constants/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/blackboard/classin/controller/ClassinCourseClassController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/blackboard/classin/controller/ClassinCourseClassController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/blackboard/classin/controller/UserPhoneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/blackboard/classin/controller/UserPhoneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/blackboard/classin/service/IBbCourseClassinCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/blackboard/classin/service/IBbCourseClassinCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/blackboard/classin/service/impl/BbCourseClassinCourseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/blackboard/classin/service/impl/BbCourseClassinCourseImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/blackboard/classin/util/SystemUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/blackboard/classin/util/SystemUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webContent/page/classin/classScheduleList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webContent/page/classin/classScheduleList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webContent/page/classin/createClassinClass.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webContent/page/classin/createClassinClass.jsp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,8 +41,12 @@
       <file leaf-file-name="ClassinCourseClassController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/blackboard/classin/controller/ClassinCourseClassController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="246" column="39" selection-start-line="246" selection-start-column="39" selection-end-line="246" selection-end-column="39" />
+            <state relative-caret-position="346">
+              <caret line="82" column="58" selection-start-line="82" selection-start-column="58" selection-end-line="82" selection-end-column="58" />
+              <folding>
+                <element signature="e#2717#2718#0" expanded="true" />
+                <element signature="e#2786#2787#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -24,26 +54,17 @@
       <file leaf-file-name="BbCourseClassinCourseImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/blackboard/classin/service/impl/BbCourseClassinCourseImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="276" column="21" selection-start-line="276" selection-start-column="21" selection-end-line="276" selection-end-column="21" />
+            <state relative-caret-position="562">
+              <caret line="435" column="19" selection-start-line="435" selection-start-column="19" selection-end-line="435" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="数据库初始化.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webContent/configure/数据库初始化.sql">
+      <file leaf-file-name="IBbCourseClassinCourse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/blackboard/classin/service/IBbCourseClassinCourse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="165" selection-start-line="165" selection-end-line="166" selection-end-column="139" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webContent/configure/update.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="164" />
+            <state relative-caret-position="270">
+              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -51,26 +72,8 @@
       <file leaf-file-name="ScheduledTask.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/blackboard/classin/task/ScheduledTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimerTaskImp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/blackboard/classin/service/impl/TimerTaskImp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="222" column="145" selection-start-line="222" selection-start-column="145" selection-end-line="222" selection-end-column="145" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="createClassinClass.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webContent/page/classin/createClassinClass.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="698">
-              <caret line="169" column="80" selection-start-line="169" selection-start-column="80" selection-end-line="169" selection-end-column="80" />
+            <state relative-caret-position="1215">
+              <caret line="67" column="15" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -78,26 +81,26 @@
       <file leaf-file-name="SystemUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/blackboard/classin/util/SystemUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="415" column="58" selection-start-line="415" selection-start-column="49" selection-end-line="415" selection-end-column="58" />
+            <state relative-caret-position="742">
+              <caret line="481" column="28" selection-start-line="481" selection-start-column="28" selection-end-line="481" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/db.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/blackboard/classin/constants/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+            <state relative-caret-position="513">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/db.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -106,9 +109,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>status</find>
-      <find>CreateClassResult</find>
-      <find>Reason</find>
       <find>deleteFailureDataByReasonByReason</find>
       <find>getAllCreateClassResult</find>
       <find>非</find>
@@ -130,6 +130,15 @@
       <find>删除</find>
       <find>classin_getcoursestudent_url</find>
       <find>userId</find>
+      <find>classin_addcoursestudent_url</find>
+      <find>currentUserTelephone</find>
+      <find>classinUid</find>
+      <find>addClassStu</find>
+      <find>getClassList</find>
+      <find>assistPhone</find>
+      <find>teacherPhone</find>
+      <find>nick</find>
+      <find>228</find>
     </findStrings>
     <replaceStrings>
       <replace>fail</replace>
@@ -143,13 +152,15 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/blackboard/classin/mapper/ClassScheduleDataMapper.xml" />
         <option value="$PROJECT_DIR$/src/com/blackboard/classin/mapper/ClassScheduleDataMapper.java" />
-        <option value="$PROJECT_DIR$/webContent/page/classin/classScheduleList.jsp" />
-        <option value="$PROJECT_DIR$/webContent/page/classin/createClassinClass.jsp" />
-        <option value="$PROJECT_DIR$/src/com/blackboard/classin/service/impl/BbCourseClassinCourseImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/blackboard/classin/util/SystemUtil.java" />
-        <option value="$PROJECT_DIR$/src/com/blackboard/classin/service/impl/TimerTaskImp.java" />
         <option value="$PROJECT_DIR$/src/com/blackboard/classin/task/ScheduledTask.java" />
+        <option value="$PROJECT_DIR$/webContent/page/classin/createClassinClass.jsp" />
+        <option value="$PROJECT_DIR$/webContent/page/classin/classScheduleList.jsp" />
+        <option value="$PROJECT_DIR$/src/com/blackboard/classin/controller/UserPhoneController.java" />
+        <option value="$PROJECT_DIR$/src/com/blackboard/classin/service/impl/TimerTaskImp.java" />
+        <option value="$PROJECT_DIR$/src/com/blackboard/classin/service/IBbCourseClassinCourse.java" />
         <option value="$PROJECT_DIR$/src/com/blackboard/classin/controller/ClassinCourseClassController.java" />
+        <option value="$PROJECT_DIR$/src/com/blackboard/classin/util/SystemUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/blackboard/classin/service/impl/BbCourseClassinCourseImpl.java" />
         <option value="$PROJECT_DIR$/config/db.properties" />
         <option value="$PROJECT_DIR$/src/com/blackboard/classin/constants/Constants.java" />
       </list>
@@ -179,83 +190,80 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="bdclassin0829-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bdclassin0829-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bdclassin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bdclassin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="bdclassin0829-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bdclassin0829-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bdclassin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bdclassin" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="bdclassin0829-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bdclassin0829-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bdclassin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bdclassin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="bdclassin0829-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bdclassin0829-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bdclassin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bdclassin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="classin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="bdclassin0829-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bdclassin0829-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bdclassin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bdclassin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="classin" type="462c0819:PsiDirectoryNode" />
               <item name="constants" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="bdclassin0829-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bdclassin0829-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bdclassin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bdclassin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="classin" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="bdclassin0829-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bdclassin0829-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bdclassin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bdclassin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="classin" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="bdclassin0829-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bdclassin0829-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bdclassin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bdclassin" type="462c0819:PsiDirectoryNode" />
               <item name="webContent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="bdclassin0829-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bdclassin0829-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bdclassin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bdclassin" type="462c0819:PsiDirectoryNode" />
               <item name="webContent" type="462c0819:PsiDirectoryNode" />
               <item name="configure" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="bdclassin0829-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bdclassin0829-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bdclassin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bdclassin" type="462c0819:PsiDirectoryNode" />
               <item name="webContent" type="462c0819:PsiDirectoryNode" />
               <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bdclassin0829-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bdclassin0829-master" type="462c0819:PsiDirectoryNode" />
-              <item name="webContent" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="classin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="bdclassin" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -380,15 +388,18 @@
       <workItem from="1599709743017" duration="15588000" />
       <workItem from="1599744157091" duration="4979000" />
       <workItem from="1599836840573" duration="1574000" />
-      <workItem from="1599881067921" duration="26017000" />
+      <workItem from="1599881067921" duration="28005000" />
+      <workItem from="1600063104750" duration="17000" />
+      <workItem from="1600063358782" duration="20795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31539000" />
+    <option name="totallyTimeSpent" value="54339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50319827" side_tool="true" weight="0.12513484" />
@@ -407,11 +418,11 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38727078" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4995958" weight="0.32897195" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38727078" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4968017" visible="true" weight="0.13915858" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5567423" visible="true" weight="0.31769723" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4968017" visible="true" weight="0.18015103" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5567423" visible="true" weight="0.32462686" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32901832" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -433,7 +444,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4968017" visible="true" weight="0.13915858" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4968017" weight="0.22330096" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50319827" side_tool="true" weight="0.12513484" />
@@ -445,7 +456,7 @@
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4995958" weight="0.32897195" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32901832" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5567423" visible="true" weight="0.31769723" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5567423" visible="true" weight="0.32462686" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Web" order="5" side_tool="true" />
@@ -468,27 +479,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="将主页的测试读取数据按钮进行了隐藏" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/blackboard/classin/service/SystemRegistryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/blackboard/classin/service/BbClassInInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/blackboard/classin/mapper/ClassinClassVideoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/lang/Thread.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/net/InetAddress.java" />
     <entry file="file://$PROJECT_DIR$/src/test/ABC.java">
@@ -690,13 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/blackboard/classin/controller/UserPhoneController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/blackboard/classin/mapper/ClassScheduleDataMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -711,13 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webContent/page/classin/classScheduleList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="525" column="56" selection-start-line="525" selection-start-column="54" selection-end-line="525" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/blackboard/classin/mapper/UserPhoneMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -725,73 +701,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webContent/page/classin/createClassinClass.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/blackboard/classin/entity/CourseStudentPOJO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="169" column="80" selection-start-line="169" selection-start-column="80" selection-end-line="169" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/blackboard/classin/util/SystemUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="415" column="58" selection-start-line="415" selection-start-column="49" selection-end-line="415" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webContent/configure/update.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="164" />
+        <state relative-caret-position="135">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webContent/configure/数据库初始化.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="165" selection-start-line="165" selection-end-line="166" selection-end-column="139" />
+        <state relative-caret-position="310">
+          <caret line="154" column="64" selection-start-line="154" selection-start-column="36" selection-end-line="154" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/blackboard/classin/service/impl/BbCourseClassinCourseImpl.java">
+    <entry file="file://$PROJECT_DIR$/webContent/page/classin/createClassinClass.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="276" column="21" selection-start-line="276" selection-start-column="21" selection-end-line="276" selection-end-column="21" />
+        <state relative-caret-position="216">
+          <caret line="254" column="25" selection-start-line="254" selection-start-column="25" selection-end-line="254" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webContent/page/classin/classScheduleList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="152" column="96" selection-start-line="152" selection-start-column="96" selection-end-line="152" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/blackboard/classin/controller/UserPhoneController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="80" column="72" selection-start-line="80" selection-start-column="72" selection-end-line="80" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webContent/configure/update.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/blackboard/classin/service/impl/TimerTaskImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="222" column="145" selection-start-line="222" selection-start-column="145" selection-end-line="222" selection-end-column="145" />
+        <state relative-caret-position="338">
+          <caret line="317" column="77" selection-start-line="317" selection-start-column="66" selection-end-line="317" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/blackboard/classin/task/ScheduledTask.java">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+        <state relative-caret-position="396">
+          <caret line="417" column="4" selection-start-line="417" selection-start-column="4" selection-end-line="417" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/blackboard/classin/service/IBbCourseClassinCourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/blackboard/classin/controller/ClassinCourseClassController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="246" column="39" selection-start-line="246" selection-start-column="39" selection-end-line="246" selection-end-column="39" />
+        <state relative-caret-position="346">
+          <caret line="82" column="58" selection-start-line="82" selection-start-column="58" selection-end-line="82" selection-end-column="58" />
+          <folding>
+            <element signature="e#2717#2718#0" expanded="true" />
+            <element signature="e#2786#2787#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/blackboard/classin/constants/Constants.java">
+    <entry file="file://$PROJECT_DIR$/src/com/blackboard/classin/util/SystemUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+        <state relative-caret-position="742">
+          <caret line="481" column="28" selection-start-line="481" selection-start-column="28" selection-end-line="481" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/blackboard/classin/service/impl/BbCourseClassinCourseImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="435" column="19" selection-start-line="435" selection-start-column="19" selection-end-line="435" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/blackboard/classin/task/ScheduledTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="67" column="15" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/db.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        <state relative-caret-position="216">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/blackboard/classin/constants/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
