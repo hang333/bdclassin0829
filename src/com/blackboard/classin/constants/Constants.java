@@ -17,3 +17,5 @@ public class Constants {
     public static final String CLASSIN_REGISTER_URL = "https:///api.eeo.cn/partner/api/course.api.php?action=register";
     public static final String CLASSIN_ADDCOURSESTUDENT_URL = "https:///api.eeo.cn/partner/api/course.api.php?action=addCourseStudent";
 }
+
+
